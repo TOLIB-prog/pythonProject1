@@ -5,8 +5,7 @@ print('{} {} cost ${}'.format(6, "bananas", 2.48))
 apple = 7
 greypfrut = 6
 watermilow = 2
+for i in range(1, 5, 3):
+	print(i)
+	print(f'{apple}{greypfrut}{watermilow} frutes')
 print(f'{apple} please eating {greypfrut} and {watermilow} today')
-
-num = input("Enter a number to be doubled:")
-doubled_num = int(num) * 12
-print(doubled_num, 'you find your number!')
